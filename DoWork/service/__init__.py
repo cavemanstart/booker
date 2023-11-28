@@ -1,0 +1,5 @@
+from .collect_data_service.collect_books_data import BooksDataCollectProcess
+from .collect_data_service.collect_users_data import UsersDataCollectProcess
+from .online_train_service import OnlineTrain
+from .realtime_service import RealTimeRecommend
+from .recommend_service import personal_recommend, high_score_recommend, high_degree_recommend
